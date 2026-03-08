@@ -349,6 +349,35 @@ footer ul {
   }
 }
 
+/*====Certificates Section====*/
+.certificates {
+  padding: 60px 0;
+}
+
+.certificates {
+  text-align: left;
+  margin-bottom: 25px;
+}
+
+.cert-card {
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+
+.cert-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.cert-card h4 {
+  margin-bottom: 8px;
+  font-size: 1.rem;
+  color: #d8702a;
+}
+
 
 
 
