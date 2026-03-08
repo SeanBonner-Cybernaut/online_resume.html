@@ -246,3 +246,19 @@ footer ul {
     border-radius: 10px;
     object-fit: cover;
   }
+/* Fix hero layout */
+.hero .container {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.portrait {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
