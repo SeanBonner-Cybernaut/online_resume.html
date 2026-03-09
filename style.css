@@ -359,24 +359,32 @@ footer ul {
   margin-bottom: 25px;
 }
 
+.cert-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+
 .cert-card {
   background: #fff;
   border: 1px solid #eee;
   border-radius: 10px;
   padding: 20px;
-  transition: all 0.3s ease;
+  transition: all 0.4s ease;
 }
 
 .cert-card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-6px);
   box-shadow: 0 10px 25px rgba(0,0,0,0.08);
 }
 
-.cert-card h4 {
+.cert-card h5 {
   margin-bottom: 8px;
   font-size: 1.rem;
   color: #d8702a;
 }
+
 
 
 
