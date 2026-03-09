@@ -379,11 +379,12 @@ footer ul {
   box-shadow: 0 10px 25px rgba(0,0,0,0.08);
 }
 
-.cert-card h5 {
+.cert-card h4 {
   margin-bottom: 8px;
   font-size: 1.rem;
   color: #d8702a;
 }
+
 
 
 
